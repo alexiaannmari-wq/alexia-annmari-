@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "description": "How Alexia Horozian handles personal information when you get in touch or inquire about virtual administration support."
+  },
+  "shell": {
+    "eyebrow": "Privacy",
+    "title": "Privacy Policy",
+    "description": "How personal information is handled when you contact Alexia Horozian about virtual administration services."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "title": "Information you share",
+      "paragraphs": [
+        "When you email or submit a contact form, you may share contact details and information about your business or inquiry. That information is used only to respond, coordinate next steps, and provide the services you request."
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "How information is used",
+      "paragraphs": [
+        "Communications are used to reply to questions, discuss fit, and support ongoing work when we engage. Information is not sold or shared for marketing."
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "Sensitive information",
+      "paragraphs": [
+        "Please avoid sending passwords, payment credentials, or highly sensitive client data through general email or website forms. Secure channels can be arranged once an engagement begins."
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "Third-party services",
+      "paragraphs": [
+        "Email providers and hosting services may process messages and site traffic as needed to operate the website. If an external booking link is configured later, that provider will process scheduling details under its own privacy practices."
+      ]
+    }
+  ],
+  "contactHeading": "Contact",
+  "contactBodyPrefix": "Questions about privacy can be sent to",
+  "lastUpdated": "Last updated: September 2026"
+}

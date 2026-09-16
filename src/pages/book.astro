@@ -1,0 +1,24 @@
+---
+import BookPage from '../components/BookPage';
+import Layout from '../layouts/Layout.astro';
+import PageUnavailable from '../components/PageUnavailable';
+import { getBookCtaLabel, siteConfig } from '../config';
+import { pageContent } from '../lib/content';
+
+const book = pageContent.book;
+---
+
+<Layout
+  title={`${getBookCtaLabel()} - ${siteConfig.practiceName}`}
+  description={book.meta.description}
+  canonicalPath="/book"
+  noindex={!siteConfig.pages.book.enabled}
+>
+  {
+    siteConfig.pages.book.enabled ? (
+      <BookPage client:load />
+    ) : (
+      <PageUnavailable title={siteConfig.pages.book.label} client:load />
+    )
+  }
+</Layout>

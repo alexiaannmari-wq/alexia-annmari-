@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "description": "Contact Alexia Horozian about virtual administration support for your business."
+  },
+  "shell": {
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "description": "Share a bit about your work and what you need help with. I will follow up within the stated response time."
+  },
+  "sections": [],
+  "sidebar": {
+    "detailsHeading": "Studio details",
+    "bookingHeading": "Prefer to book a time?",
+    "bookingExternal": "Use the link below to schedule through the online booking portal.",
+    "bookingSession": "Use the intro call page if you would rather request a specific conversation.",
+    "bookingConsultation": "Send a message here to start the conversation — no booking portal required."
+  }
+}

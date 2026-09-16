@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ContactPage from '../components/ContactPage';
+import PageUnavailable from '../components/PageUnavailable';
+import { siteConfig } from '../config';
+import { pageContent } from '../lib/content';
+
+const contact = pageContent.contact;
+---
+
+<Layout
+  title={`${siteConfig.pages.contact.label} - ${siteConfig.practiceName}`}
+  description={contact.meta.description}
+  canonicalPath="/contact"
+  noindex={!siteConfig.pages.contact.enabled}
+>
+  {
+    siteConfig.pages.contact.enabled ? (
+      <ContactPage client:load />
+    ) : (
+      <PageUnavailable title={siteConfig.pages.contact.label} client:load />
+    )
+  }
+</Layout>

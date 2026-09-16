@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": "getting-started",
+      "question": "How do we get started?",
+      "answer": "Reach out through the contact form with a short note about your business and what you need help with. We begin with an intro conversation to confirm fit, priorities, and which package makes sense."
+    },
+    {
+      "id": "virtual",
+      "question": "Is support fully virtual?",
+      "answer": "Yes. Work is remote and designed for professionals who need reliable coverage across inbox, calendar, operations, and related admin without in-person meetings."
+    },
+    {
+      "id": "packages",
+      "question": "What is the difference between the packages?",
+      "answer": "Essential covers core day-to-day admin. Signature adds operational support inside the business, including client experience and follow-through. Executive Tier is full-spectrum support across admin, operations, and higher-touch oversight."
+    },
+    {
+      "id": "add-ons",
+      "question": "Can I add support outside a monthly package?",
+      "answer": "Yes. Add-ons such as extra strategy calls, speaker kit work, or content production can be layered onto a package when needed. Details and placeholder rates are listed on the Packages page."
+    },
+    {
+      "id": "roster",
+      "question": "How many clients do you work with at once?",
+      "answer": "The client list is intentionally limited so attention, turnaround, and familiarity with your preferences stay high."
+    },
+    {
+      "id": "tools",
+      "question": "Do I need to change my tools?",
+      "answer": "Not necessarily. Support is built around the systems you already use whenever possible. If a workflow change would clearly help, we discuss it before making shifts."
+    },
+    {
+      "id": "turnaround",
+      "question": "What does communication look like week to week?",
+      "answer": "Each package includes onboarding sessions, a recurring strategy and execution call, and messaging during business hours. Exact rhythm depends on the tier you choose."
+    }
+  ]
+}

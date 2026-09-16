@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "description": "Virtual administration with Alexia Horozian — operational support for busy professionals and business owners who need a reliable right hand.",
+    "titleSuffix": "Virtual Administration"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Virtual Administration · Remote",
+      "subtitle": "A boutique virtual assistant partnership for professionals doing meaningful work — and carrying more behind the scenes than they should have to.",
+      "specialtiesCta": "View services"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Who this is for",
+      "title": "Built for people already carrying too much",
+      "description": "You do not need more discipline. You need support that actually takes ownership.",
+      "items": [
+        "You run a growing practice, consultancy, or business and still handle too much yourself",
+        "You are doing well — but the logistics, follow-ups, and admin never leave your head",
+        "You have some systems in place, yet they are incomplete or inconsistently maintained",
+        "You are tired of being the person holding every loose end together"
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "How I help",
+      "title": "Operate at the level you are meant to",
+      "description": "While you focus on clients and the work that matters, I take ownership of the operational side so it stops living in your head.",
+      "items": [
+        {
+          "title": "Time back",
+          "description": "Inbox, calendar, and ongoing admin handled thoughtfully and consistently — without you needing to check, follow up, or keep score."
+        },
+        {
+          "title": "Momentum",
+          "description": "Projects, follow-ups, and loose ends are managed, progressed, and closed — without you having to push everything along."
+        },
+        {
+          "title": "Clarity",
+          "description": "Systems and workflows organized around how you naturally work, so the business feels simpler and easier to run."
+        }
+      ]
+    },
+    {
+      "type": "specialtiesPreview",
+      "eyebrow": "Services",
+      "title": "Where support shows up",
+      "seeAllLabel": "See all services"
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Why work with me",
+      "title": "Support that stays close to the work",
+      "description": "The goal is not only organization. It is helping your business feel lighter to run.",
+      "items": [
+        {
+          "title": "Limited client roster",
+          "description": "An intentionally lean list means more attention, faster turnaround, and a partner dialed into your priorities."
+        },
+        {
+          "title": "Proactive ownership",
+          "description": "Proven process, careful organization, and detail-minded follow-through so projects move without constant prompting."
+        },
+        {
+          "title": "Professional partnership",
+          "description": "Clear communication, thoughtful execution, and a right-hand approach — not a task dump waiting on you."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Ready to lighten the load?",
+      "description": "Reach out to share what you are carrying and explore whether ongoing virtual administration is the right fit."
+    }
+  ]
+}

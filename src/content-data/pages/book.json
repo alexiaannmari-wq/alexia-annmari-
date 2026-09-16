@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "description": "Request an intro call with Alexia Horozian to discuss virtual administration support."
+  },
+  "shell": {
+    "eyebrow": "Intro call",
+    "title": "Request a time to connect",
+    "description": "Share what you need and request an intro conversation. I will follow up to confirm timing.",
+    "descriptionWithCalendar": "Choose a time from the calendar and send your request."
+  },
+  "sections": [],
+  "external": {
+    "description": "Schedule through the online booking portal when a link is configured."
+  },
+  "sidebar": {
+    "sessionHeading": "Support requests",
+    "consultationHeading": "What to expect",
+    "consultationDescription": "An intro call is a short conversation about your business, priorities, package fit, and what working together could look like.",
+    "externalDescription": "Online booking lets you view availability, choose a time, and share the details needed to get started.",
+    "responseTimeLabel": "Response time",
+    "availabilityLabel": "Availability",
+    "timeZoneLabel": "Calendar time zone"
+  }
+}

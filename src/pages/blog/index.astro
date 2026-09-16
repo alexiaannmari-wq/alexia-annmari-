@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import BlogIndexPage from '../../components/BlogIndexPage';
+import PageUnavailable from '../../components/PageUnavailable';
+import { siteConfig } from '../../config';
+import { pageContent } from '../../lib/content';
+import Layout from '../../layouts/Layout.astro';
+
+const blog = pageContent.blog;
+const posts = siteConfig.pages.blog.enabled
+  ? (await getCollection('blog', ({ data }: { data: any }) => !data.draft))
+      .sort(
+        (a: any, b: any) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+      )
+      .map((entry: any) => ({
+        slug: entry.id,
+        title: entry.data.title,
+        description: entry.data.description,
+        pubDate: entry.data.pubDate.toISOString(),
+        heroImage: entry.data.heroImage,
+      }))
+  : [];
+---
+
+<Layout
+  title={`${siteConfig.pages.blog.label} - ${siteConfig.practiceName}`}
+  description={blog.meta.description}
+  canonicalPath="/blog"
+  noindex={!siteConfig.pages.blog.enabled}
+>
+  {
+    siteConfig.pages.blog.enabled ? (
+      <BlogIndexPage posts={posts} client:load />
+    ) : (
+      <PageUnavailable title={siteConfig.pages.blog.label} client:load />
+    )
+  }
+</Layout>

@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "description": "Virtual administration services from Alexia Horozian — inbox, calendar, client operations, and systems support."
+  },
+  "shell": {
+    "eyebrow": "Services",
+    "title": "Support across the operational layer",
+    "description": "Virtual administration that covers the day-to-day and the systems underneath — so you can stay focused on the work only you can do."
+  },
+  "sections": [],
+  "cardCta": "Learn more",
+  "backLinkLabel": "All services",
+  "detailEyebrow": "Service"
+}

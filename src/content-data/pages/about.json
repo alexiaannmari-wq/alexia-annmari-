@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "description": "Learn about Alexia Horozian and how virtual administration support is structured for busy professionals and business owners."
+  },
+  "shell": {
+    "eyebrow": "About",
+    "title": "Meet Alexia Horozian",
+    "description": ""
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "withImage": true,
+      "title": "A right hand for the work behind the work",
+      "paragraphs": [
+        "Hi, I am **Alexia**. I provide *virtual administration and operational support* for busy professionals and business owners who need more than occasional task help.",
+        "Running a practice or company often means the meaningful work sits next to a second full-time job:\n\n- Inbox triage and follow-ups\n- Calendar logistics and client coordination\n- File chaos and the systems that keep everything from slipping\n\nThat second job is where I step in.",
+        "I work with a **small number of clients** at a time so support stays thoughtful, consistent, and useful. The aim is not to hand off a few chores — it is to bring structure to what is currently sitting on you, from daily logistics to the workflows that keep the business moving.",
+        "Over time, the shift is not only *how* your business runs. It is how it *feels* to run it."
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "How I approach the work",
+      "paragraphs": [
+        "I start by learning how you already operate — your tools, preferences, and non-negotiables — then build support around that reality rather than forcing a generic process.",
+        "Communication stays **clear and proactive**. You should not have to wonder whether something was handled. Loose ends get tracked, progressed, and closed with ownership.",
+        "Everything is virtual and designed for professionals who need reliable coverage without adding another layer of management overhead. Ready to talk? [Get in touch](/contact)."
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "How we work together",
+      "description": "Engagements are **structured**, *collaborative*, and paced for real businesses — not one-off task lists.",
+      "items": [
+        {
+          "title": "Onboarding with intention",
+          "description": "We clarify **priorities**, access, and communication rhythm so support starts clean and stays aligned."
+        },
+        {
+          "title": "Ownership, not ping-pong",
+          "description": "I take work forward without needing you to chase status or re-explain every detail — *ownership*, not handoffs."
+        },
+        {
+          "title": "Systems that fit you",
+          "description": "Organization and workflows are shaped around how you *naturally* work, so things stay usable day to day."
+        }
+      ]
+    }
+  ]
+}

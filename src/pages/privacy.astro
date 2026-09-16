@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PrivacyPage from '../components/PrivacyPage';
+import PageUnavailable from '../components/PageUnavailable';
+import { siteConfig } from '../config';
+import { pageContent } from '../lib/content';
+
+const privacy = pageContent.privacy;
+---
+
+<Layout
+  title={`${siteConfig.pages.privacy.label} - ${siteConfig.practiceName}`}
+  description={privacy.meta.description}
+  canonicalPath="/privacy"
+  noindex={!siteConfig.pages.privacy.enabled}
+>
+  {
+    siteConfig.pages.privacy.enabled ? (
+      <PrivacyPage client:load />
+    ) : (
+      <PageUnavailable title={siteConfig.pages.privacy.label} client:load />
+    )
+  }
+</Layout>

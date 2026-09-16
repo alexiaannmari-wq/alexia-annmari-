@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import FaqPage from '../components/FaqPage';
+import PageUnavailable from '../components/PageUnavailable';
+import { siteConfig } from '../config';
+import { pageContent } from '../lib/content';
+
+const faq = pageContent.faq;
+---
+
+<Layout
+  title={`${siteConfig.pages.faq.label} - ${siteConfig.practiceName}`}
+  description={faq.meta.description}
+  canonicalPath="/faq"
+  noindex={!siteConfig.pages.faq.enabled}
+>
+  {
+    siteConfig.pages.faq.enabled ? (
+      <FaqPage client:load />
+    ) : (
+      <PageUnavailable title={siteConfig.pages.faq.label} client:load />
+    )
+  }
+</Layout>

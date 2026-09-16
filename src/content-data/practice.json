@@ -1,0 +1,171 @@
+{
+  "practiceName": "Alexia Horozian",
+  "practitionerName": "Alexia Horozian",
+  "credentials": "Virtual Administration",
+  "tagline": "Operational support for professionals who have outgrown doing everything alone.",
+  "description": "Virtual administration and executive support with Alexia Horozian — inbox, calendar, systems, and day-to-day operations for busy professionals and business owners.",
+  "location": "Remote · North America",
+  "phone": "disabled",
+  "email": "hello@example.com",
+  "hours": "Monday to Friday, 9:00 AM to 5:00 PM",
+  "responseTime": "1–2 business days",
+  "logo": "/images/logo-full.png",
+  "logoMark": "/images/logo-transparent3.png",
+  "heroImage": "/images/headshot.webp",
+  "aboutImage": "/images/casual-headshot.webp",
+  "defaultImage": "/images/nature-temp.jpg",
+  "socialLinks": {
+    "instagram": "",
+    "linkedin": ""
+  },
+  "fees": {
+    "insuranceNotes": [
+      "Packages are billed monthly. Pricing shown is placeholder and can be adjusted before launch.",
+      "Engagements begin with a short intro conversation to confirm fit, priorities, and communication rhythm.",
+      "A limited number of client seats are available at a time to keep support consistent and attentive."
+    ],
+    "insuranceHeading": "Engagement notes"
+  },
+  "packages": [
+    {
+      "name": "Essential Support",
+      "eyebrow": "Core administration",
+      "summary": "Day-to-day virtual admin for professionals who need consistent help with the essentials — inbox, calendar, and staying organized — without deeper operations work.",
+      "price": "$3,000/mo",
+      "includes": [
+        "Weekly business briefings so you stay clear on priorities without chasing updates",
+        "Inbox support and non-sensitive client or stakeholder communication",
+        "Calendar management — coordination, reschedules, and reminders",
+        "Digital organization — files, documents, and notes hygiene",
+        "Light research and information gathering"
+      ],
+      "communication": [
+        "One 90-minute onboarding strategy session",
+        "Weekly strategy and execution call (30 minutes)",
+        "Message access during business hours"
+      ]
+    },
+    {
+      "name": "Signature Package",
+      "eyebrow": "Operations support",
+      "summary": "For professionals who need support inside the business — not only around it. Structure, follow-through, and client-facing operations handled with ownership.",
+      "price": "$4,500/mo",
+      "includes": [
+        "Everything in Essential Support",
+        "Client experience support across onboarding, active work, and wrap-up",
+        "Meeting support — agendas, materials, notes, and follow-ups",
+        "Proposal and contract coordination — send, track, and nudge",
+        "Progress and milestone tracking so nothing stalls midstream"
+      ],
+      "communication": [
+        "Two 60-minute onboarding strategy sessions",
+        "Weekly strategy and execution call (30 minutes)",
+        "Message access during business hours"
+      ]
+    },
+    {
+      "name": "Executive Tier",
+      "eyebrow": "Full-spectrum support",
+      "summary": "Highest-touch partnership: day-to-day admin, operations, and oversight so larger moving pieces stay aligned while you focus on the work only you can do.",
+      "price": "$6,000/mo",
+      "includes": [
+        "Everything in Essential and Signature",
+        "Billing support — invoicing, payment tracking, and follow-up",
+        "Travel planning and coordination",
+        "CRM hygiene — contacts, notes, follow-ups, and pipeline upkeep",
+        "Visibility support — scanning opportunities and preparing materials",
+        "Launch support for new offerings and operational backends",
+        "Content repurposing from notes and existing material into shareable drafts"
+      ],
+      "communication": [
+        "Three 60-minute onboarding strategy sessions",
+        "Weekly strategy and execution call (up to 45 minutes)",
+        "Message access during business hours"
+      ]
+    }
+  ],
+  "addOns": [
+    {
+      "label": "Additional strategy or execution calls",
+      "price": "$125/hour"
+    },
+    {
+      "label": "Speaker kit build-out",
+      "price": "$1,200"
+    },
+    {
+      "label": "Speaking engagement management",
+      "price": "$750/month"
+    },
+    {
+      "label": "LinkedIn profile optimization",
+      "price": "$750"
+    },
+    {
+      "label": "Content production and visibility management",
+      "price": "$1,000+/month"
+    }
+  ],
+  "pages": {
+    "home": { "label": "Home" },
+    "about": { "label": "About" },
+    "specialties": { "label": "Services" },
+    "fees": { "label": "Packages" },
+    "faq": { "label": "FAQ" },
+    "book": {
+      "label": "Intro call",
+      "consultationLabel": "Request an intro call"
+    },
+    "blog": { "label": "Blog" },
+    "contact": { "label": "Contact" },
+    "privacy": { "label": "Privacy" }
+  },
+  "forms": {
+    "bookSession": {
+      "externalLink": {
+        "url": "",
+        "label": "Book online",
+        "description": "If an external booking link is set, you can leave this site to choose a time. Leave the URL blank to hide the button."
+      },
+      "enabled": true,
+      "siteCtaLabel": "Get in touch",
+      "label": "Request support",
+      "title": "Request an intro conversation",
+      "description": "Share a little about your work and what you need help with. I will follow up to confirm timing and next steps.",
+      "descriptionWithCalendar": "Choose a time from the calendar, then send your request.",
+      "confirmationMessage": "Your request has been received. Timing is not confirmed until I follow up.",
+      "consultationCopy": {
+        "title": "Start with a brief intro call",
+        "description": "A short conversation to learn about your business, clarify priorities, and decide whether ongoing support is a good fit."
+      },
+      "consultationSuccessMessage": "Thank you for reaching out. I will reply within the stated response time to confirm next steps.",
+      "calendar": {
+        "availabilityHelpText": "Available times are based on the public calendar and include a short buffer between calls."
+      },
+      "sessionTypes": [
+        {
+          "label": "Intro call",
+          "durationMinutes": 30,
+          "fee": "Free",
+          "description": "A brief conversation to discuss your needs, package fit, and how we might work together.",
+          "modes": ["virtual"],
+          "kind": "consultation"
+        }
+      ]
+    },
+    "contactForm": {
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "messageLabel": "Message",
+      "submitLabel": "Send message",
+      "disclaimer": "Share what you can about your business and the support you are looking for. Avoid sending passwords or highly sensitive client data through this form.",
+      "successTitle": "Message received.",
+      "successMessage": "Thanks for reaching out. I will follow up by email within the stated response time.",
+      "successResetLabel": "Send another message"
+    }
+  },
+  "footer": {
+    "practiceHeading": "Studio",
+    "resourcesHeading": "Resources"
+  }
+}
