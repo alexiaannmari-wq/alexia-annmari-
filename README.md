@@ -578,7 +578,7 @@ Before using forms with clients, make sure the provider is appropriate for the k
 
 ## Update the site URL
 
-For local development, the default `site` in `astro.config.mjs` is `https://example.com`. GitHub Pages deployments set `ASTRO_SITE_URL` and `ASTRO_BASE_PATH` automatically during the build.
+For local development, the default `site` in `astro.config.mjs` is `https://example.com`. Production GitHub Pages builds set `ASTRO_SITE_URL` to `https://alexiaannmari.com` and `ASTRO_BASE_PATH` to `/` (custom domain at root).
 
 For other hosts, set the production domain before launch (or pass `ASTRO_SITE_URL` in the build environment). This controls canonical URLs for search engines.
 
@@ -601,10 +601,11 @@ dist
 ### Deploy to GitHub Pages
 
 1. In the repo, go to **Settings → Pages → Build and deployment** and choose **GitHub Actions**.
-2. Push to `main`. The workflow in `.github/workflows/deploy-pages.yml` builds with the correct base path and deploys `dist`.
-3. Project sites are served at `https://<user>.github.io/<repo-name>/` (for example `https://alexiaannmari-wq.github.io/alexia-annmari-/`).
+2. Set **Custom domain** to `alexiaannmari.com` (DNS per GitHub’s instructions). The repo includes `public/CNAME` so each deploy republishes that domain.
+3. Push to `main`. The workflow in `.github/workflows/deploy-pages.yml` builds for root hosting (`base: '/'`) and deploys `dist`.
+4. The live site is at `https://alexiaannmari.com/` (no `/repo-name/` prefix). The github.io project URL (`https://alexiaannmari-wq.github.io/alexia-annmari-/`) is not the production path.
 
-To verify a prefixed build locally before pushing:
+To verify a **prefixed** project-site build locally (optional; not how production is built):
 
 ```sh
 ASTRO_BASE_PATH=/alexia-annmari- ASTRO_SITE_URL=https://alexiaannmari-wq.github.io npm run build
@@ -613,7 +614,12 @@ npm run preview
 
 Open the preview URL and confirm CSS, JS, and images load from paths under `/alexia-annmari-/`.
 
-If a custom domain is added in GitHub Pages settings, the deploy workflow receives an empty base path and the site builds for root hosting (`base: '/'`).
+To preview the **production** (custom domain) layout locally:
+
+```sh
+ASTRO_BASE_PATH=/ ASTRO_SITE_URL=https://alexiaannmari.com npm run build
+npm run preview
+```
 
 ## License
 

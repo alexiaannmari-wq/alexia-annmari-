@@ -42,8 +42,9 @@ jobs:
 
       - name: Build with Astro
         env:
-          ASTRO_SITE_URL: ${{ steps.pages.outputs.origin }}
-          ASTRO_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          # Custom domain serves from root (not /repo-name/).
+          ASTRO_SITE_URL: https://alexiaannmari.com
+          ASTRO_BASE_PATH: /
           PUBLIC_GITHUB_OWNER: alexiaannmari-wq
           PUBLIC_GITHUB_REPO: alexiaannmari-wq.com
           PUBLIC_GITHUB_BRANCH: main
