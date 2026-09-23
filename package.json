@@ -1,8 +1,8 @@
 {
   "name": "alexia-annmari",
-  "description": "Alexia Horozian’s virtual administration website, built with Astro, React, and Tailwind CSS.",
+  "description": "Alexia Annmari’s virtual administration website, built with Astro, React, and Tailwind CSS.",
   "license": "MIT",
-  "author": "Alexia Horozian",
+  "author": "Alexia Annmari",
   "engines": {
     "node": ">=24.15.0"
   },

@@ -1,6 +1,6 @@
-# Alexia Horozian
+# Alexia Annmari
 
-Maintainer guide for Alexia Horozian’s virtual administration website (Astro, React, and Tailwind CSS). Pages include Home, About, Services, Packages, FAQ, Book an Intro Call, Blog, Contact, and Privacy.
+Maintainer guide for Alexia Annmari’s virtual administration website (Astro, React, and Tailwind CSS). Pages include Home, About, Services, Packages, FAQ, Book an Intro Call, Blog, Contact, and Privacy.
 
 Most day-to-day updates happen in a few content files (or via `/admin`) rather than inside large page components. For a short non-developer checklist (domain, forms accounts, content), see [SETUP-GUIDE.md](SETUP-GUIDE.md).
 
@@ -68,10 +68,10 @@ Shared site copy lives in `src/content-data/practice.json` and is editable via `
 
 ```json
 {
-  "practiceName": "Alexia Horozian",
+  "practiceName": "Alexia Annmari",
   "logo": "/images/logo-full.png",
   "logoMark": "/images/logo-transparent3.png",
-  "practitionerName": "Alexia Horozian",
+  "practitionerName": "Alexia Annmari",
   "credentials": "Virtual Administration",
   "location": "Remote · North America",
   "phone": "disabled",

@@ -81,7 +81,7 @@ export default function SiteHeader() {
                 aria-hidden={!showExpandedWordmark}
                 className={`origin-left object-contain object-left transition-all duration-300 ease-out motion-reduce:transition-none ${
                   showExpandedWordmark
-                    ? 'h-14 w-auto max-w-[min(11rem,55vw)] opacity-100 brightness-0 invert sm:h-16 sm:max-w-[13rem] md:h-[4.5rem]'
+                    ? 'h-14 w-auto max-w-[min(11rem,55vw)] opacity-100 sm:h-16 sm:max-w-[13rem] md:h-[4.5rem]'
                     : 'pointer-events-none max-h-0 max-w-0 opacity-0'
                 }`}
               />
@@ -94,7 +94,7 @@ export default function SiteHeader() {
                 aria-hidden={!(showCompactMark && !showExpandedWordmark)}
                 className={`shrink-0 object-contain transition-all duration-300 ease-out motion-reduce:transition-none ${
                   showCompactMark
-                    ? 'h-9 w-auto opacity-100 brightness-0 invert sm:h-10'
+                    ? 'h-9 w-auto opacity-100 sm:h-10'
                     : 'pointer-events-none h-0 w-0 opacity-0'
                 }`}
               />
