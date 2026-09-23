@@ -59,7 +59,7 @@ function HeroSection({
         }}
       />
 
-      <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-6 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16 lg:px-8 lg:py-8">
+      <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-6 py-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16 lg:px-8 lg:py-8">
         <div className="space-y-8">
           <div className="space-y-5">
             <SharedField
